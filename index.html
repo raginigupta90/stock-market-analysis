@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Market Analysis</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="scripts.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Stock Market Analysis</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Market Overview</a></li>
+                <li><a href="#">Stocks</a></li>
+                <li><a href="#">Analysis</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="stock-search">
+            <h2>Search Stock</h2>
+            <input type="text" id="stock-symbol" placeholder="Enter Stock Symbol">
+            <button id="search-button">Search</button>
+        </section>
+        <section class="stock-data">
+            <h2>Stock Data</h2>
+            <div id="stock-info" class="card"></div>
+            <canvas id="stock-chart"></canvas>
+        </section>
+        <section class="market-news">
+            <h2>Market News</h2>
+            <div class="news-card-container">
+                <!-- Example news card -->
+                <div class="news-card">
+                    <h3>Stock Market Today</h3>
+                    <p>Summary of today's stock market activity...</p>
+                    <a href="#">Read more</a>
+                </div>
+                <div class="news-card">
+                    <h3>Top Gainers and Losers</h3>
+                    <p>Who were the top gainers and losers today...</p>
+                    <a href="#">Read more</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Stock Market Analysis</p>
+    </footer>
+</body>
+</html>
