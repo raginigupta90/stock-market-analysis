@@ -31,5 +31,5 @@ Check out the live demo of the project [here](#).
 ### Steps
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/stock-market-analysis.git
+   git clone https://github.com/raginigupta/stock-market-analysis.git
    cd stock-market-analysis
